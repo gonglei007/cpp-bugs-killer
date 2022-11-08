@@ -30,3 +30,15 @@
 *.exe
 *.out
 *.app
+source/bug1536/config/xcode/bug1536.xcodeproj/xcuserdata
+source/bug542/config/xcode/bug542.xcodeproj/xcuserdata
+source/gltop_bug2/config/xcode/gltop_bug2.xcodeproj/xcuserdata
+source/bug602/config/xcode/bug602.xcodeproj/xcuserdata
+source/gltop_bug1/config/xcode/gltop_bug1.xcodeproj/xcuserdata
+source/bug603/config/xcode/bug603.xcodeproj/xcuserdata
+source/cpp_training.xcworkspace/xcuserdata
+source/ipch
+source/cpp_samples.sdf
+source/cpp_samples.suo
+source/cpp_samples.userprefs
+*.user

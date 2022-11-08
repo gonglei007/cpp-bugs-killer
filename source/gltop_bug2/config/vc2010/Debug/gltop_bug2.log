@@ -1,0 +1,30 @@
+﻿Build started 2012/4/1 18:59:26.
+     1>Project "C:\Users\Administrator\Dropbox\Private\cpp_samples\gltop_bug2\config\vc2010\gltop_bug2.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "C:\Users\Administrator\Dropbox\Private\cpp_samples\Debug\".
+       InitializeBuildStatus:
+         Creating "Debug\gltop_bug2.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\source\main.cpp
+         main.cpp
+     1>c:\users\administrator\dropbox\private\cpp_samples\gltop_bug2\source\main.cpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+       ManifestResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\gltop_bug2.exe.embed.manifest.res" Debug\gltop_bug2_manifest.rc 
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Administrator\Dropbox\Private\cpp_samples\Debug\gltop_bug2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\gltop_bug2.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Administrator\Dropbox\Private\cpp_samples\Debug\gltop_bug2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Administrator\Dropbox\Private\cpp_samples\Debug\gltop_bug2.lib" /MACHINE:X86 Debug\gltop_bug2.exe.embed.manifest.res
+         Debug\main.obj
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\gltop_bug2.exe.embed.manifest" /manifest Debug\gltop_bug2.exe.intermediate.manifest
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\gltop_bug2.exe.embed.manifest.res" Debug\gltop_bug2_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Administrator\Dropbox\Private\cpp_samples\Debug\gltop_bug2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\gltop_bug2.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Administrator\Dropbox\Private\cpp_samples\Debug\gltop_bug2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Administrator\Dropbox\Private\cpp_samples\Debug\gltop_bug2.lib" /MACHINE:X86 Debug\gltop_bug2.exe.embed.manifest.res
+         Debug\main.obj
+         gltop_bug2.vcxproj -> C:\Users\Administrator\Dropbox\Private\cpp_samples\Debug\gltop_bug2.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\gltop_bug2.unsuccessfulbuild".
+         Touching "Debug\gltop_bug2.lastbuildstate".
+     1>Done Building Project "C:\Users\Administrator\Dropbox\Private\cpp_samples\gltop_bug2\config\vc2010\gltop_bug2.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:16.89
