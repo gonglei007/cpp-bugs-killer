@@ -2,34 +2,6 @@
 
 # 指针
 
-## Bug1
-
-### 代码
-
-```
-char *CUT_CramMd5::GetClientResponse(LPCSTR ServerChallenge) 
-{ 
-	... 
-	if (m_szPassword != NULL) 
-	{ 	
-		... 	
-		if (m_szPassword != '\0') 
-		{ 	
-			... 	
-		}   
-	}  
-}
-
-```
-
-### 说明
-
-```
-此代码段的意图是：确保指针m_szPassword不是空指针，并且其内容也不是空字符串。
-“if (m_szPassword != ‘\0’) ”是要检查字符串的第一个字符不是结束符。
-应该写成“if (*m_szPassword != ‘\0’) ”
-```
-
 ## Bug2
 
 ### 代码
