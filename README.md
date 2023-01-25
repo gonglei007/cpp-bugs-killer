@@ -6,7 +6,8 @@
 ## 详细内容
 * [C++找bug训练](https://github.com/gonglei007/cpp-bugs-killer/blob/main/mds/C++找bug训练.md) - 比如指针、数组、字符串、运算符。
     * [Bug101 - 数组尺寸](./mds/bugs/bug101.md)
-    * TODO: 逐个列出每个bug问题。
+    * [Bug602 - 注释使用](./mds/bugs/bug602.md)
+    * //TODO: 逐个列出每个bug问题。
 * [C++常见问题](https://github.com/gonglei007/cpp-bugs-killer/blob/main/mds/C++常见问题.md) - 比如野指针、内存对齐。
 
 ## 快捷测试

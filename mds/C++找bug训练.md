@@ -216,30 +216,4 @@ binary operator 'Symbol' returning a reference  -- An
                  X operator+ ( X &, X & );
 ```
 
-# 注释
-## Bug1
-### 代码
-```
-#include <stdio.h>
-
-int quotient(int *q, int *p)
-{
-	if(*p) return *q/*p  /* compute ratio */ ;
-	else return *q;
-}
-
-int main()
-{
-    int n = 20, m = 4;
-    int q = quotient( &n, &m );
-    printf( "%d/%d == %d\n", n, m, q );
-    return 0;
-}
-```
-
-### 说明
-```
-结果是20，为什么？
-这种注释在使用时要注意
-```
 
