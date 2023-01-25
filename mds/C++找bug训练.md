@@ -53,29 +53,6 @@ sizeof操作符返回的是指针的大小（32bit），而不是itemInfo_t这�
 
 ```
 
-# 数组
-
-## Bug1
-
-### 代码
-
-```
-ID_INLINE mat3_t::mat3_t( float src[3][3] ) 
-{ 
-  memcpy( mat, src, sizeof( src ) ); 
-}
-```
-
-### 说明
-
-```
-正确的写法如下：
-ID_INLINE mat3_t::mat3_t( float (&src)[3][3] ) 
-{ 
-  memcpy( mat, src, sizeof( src ) ); 
-}
-```
-
 # 字符串
 
 ## Bug1
