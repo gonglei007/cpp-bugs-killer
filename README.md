@@ -7,6 +7,7 @@
 * [C++找bug训练](https://github.com/gonglei007/cpp-bugs-killer/blob/main/mds/C++找bug训练.md) - 比如指针、数组、字符串、运算符。
     * [Bug101 - 数组尺寸](./mds/bugs/bug101.md)
     * [Bug102 - 整数除法问题](./mds/bugs/bug102.md)
+    * [Bug401 - 数组越界](./mds/bugs/bug102.md)
     * [Bug542 - 指定长度的整形数](./mds/bugs/bug542.md)
     * [Bug602 - 注释使用](./mds/bugs/bug602.md)
     * //TODO: 逐个列出每个bug问题。

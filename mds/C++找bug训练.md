@@ -25,37 +25,6 @@ sizeof操作符返回的是指针的大小（32bit），而不是itemInfo_t这�
 
 ```
 
-# 字符串
-
-## Bug1
-
-### 代码
-
-```
-这段代码有什么问题？
-typedef struct bot_state_s
-{
-  ...
-  char  teamleader[32];
-  ...
-}bot_state_t;
-
-void BotTeamAI( bot_state_t* bs ){
-  ...
-  bs->teamleader[sizeof( bs->teamleader )] = '\0';
-  ...
-} 
-```
-
-### 说明
-
-```
-正确的写法如下：
-首先，至少要用 sizeof(bs->teamleader) – 1
-最好这样写，这样写在数组类型改为其它类型时也不会出错：
-bs->teamleader[sizeof(bs->teamleader) / sizeof(bs->teamleader[0])-1] = ‘\0’; 
-```
-
 # 运算符
 ## Bug1
 ### 代码
