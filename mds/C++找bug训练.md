@@ -1,30 +1,5 @@
 <h2 align="center">C++找bug训练</h2>
 
-# 指针
-
-## Bug2
-
-### 代码
-
-```
-void CG_RegisterItemVisuals( int itemNum ) { 
-	...   
-	itemInfo_t*	itemInfo;   
-	... 
-	memset( itemInfo, 0, sizeof( &itemInfo ) ); 
-	...
- } 
-
-```
-
-### 说明
-
-```
-sizeof操作符返回的是指针的大小（32bit），而不是itemInfo_t这个结构体的大小。
-应该写成"sizeof(*itemInfo)" 
-
-```
-
 # 运算符
 ## Bug1
 ### 代码

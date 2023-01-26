@@ -8,6 +8,7 @@
     * [Bug101 - 数组尺寸](./mds/bugs/bug101.md)
     * [Bug102 - 整数除法问题](./mds/bugs/bug102.md)
     * [Bug401 - 数组越界](./mds/bugs/bug102.md)
+    * [Bug403 - 清空结构内存](./mds/bugs/bug403.md)
     * [Bug542 - 指定长度的整形数](./mds/bugs/bug542.md)
     * [Bug602 - 注释使用](./mds/bugs/bug602.md)
     * //TODO: 逐个列出每个bug问题。
