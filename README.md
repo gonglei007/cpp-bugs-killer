@@ -10,6 +10,7 @@
 * [Bug403 - 清空结构内存](./mds/bugs/bug403.md)
 * [Bug542 - 指定长度的整形数](./mds/bugs/bug542.md)
 * [Bug602 - 注释使用](./mds/bugs/bug602.md)
+* [Bug604 - 宏的使用](./mds/bugs/bug604.md)
 * [更多C++找bug训练](https://github.com/gonglei007/cpp-bugs-killer/blob/main/mds/C++找bug训练.md) - TODO: 整理并分开列出每个bug问题。
 * [更多C++常见问题](https://github.com/gonglei007/cpp-bugs-killer/blob/main/mds/C++常见问题.md) - 比如野指针、内存对齐。
 
