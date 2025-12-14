@@ -3,16 +3,40 @@
 
 ![概要](./exports/C++找Bug训练.png?raw=true)
 
+## 📚 导航
+
+* [分类索引](./mds/分类索引.md) - 按C++特性分类查看所有bug
+* [学习路径](./mds/学习路径.md) - 推荐的学习顺序和难度分级
+
 ## 详细内容
+
+### 基础语法
 * [Bug101 - 数组尺寸](./mds/bugs/bug101.md)
 * [Bug102 - 整数除法问题](./mds/bugs/bug102.md)
-* [Bug401 - 数组越界](./mds/bugs/bug102.md)
+* [Bug201 - 空字符串检查](./mds/bugs/bug201.md)
+* [Bug301 - 运算符优先级](./mds/bugs/bug301.md)
+* [Bug302 - if-else 悬挂问题](./mds/bugs/bug302.md)
+* [Bug303 - 无符号数循环](./mds/bugs/bug303.md)
+
+### 内存管理
+* [Bug401 - 数组越界](./mds/bugs/bug401.md)
 * [Bug403 - 清空结构内存](./mds/bugs/bug403.md)
+* [Bug502 - 内存泄漏](./mds/bugs/bug502.md)
+* [Bug505 - 悬空引用](./mds/bugs/bug505.md)
+
+### 类型系统
+* [Bug504 - 未初始化变量](./mds/bugs/bug504.md)
+* [Bug506 - 类型转换问题](./mds/bugs/bug506.md)
 * [Bug542 - 指定长度的整形数](./mds/bugs/bug542.md)
+
+### 高级特性
+* [Bug601 - 运算符重载返回引用](./mds/bugs/bug601.md)
 * [Bug602 - 注释使用](./mds/bugs/bug602.md)
 * [Bug604 - 宏的使用](./mds/bugs/bug604.md)
-* [更多C++找bug训练](https://github.com/gonglei007/cpp-bugs-killer/blob/main/mds/C++找bug训练.md) - TODO: 整理并分开列出每个bug问题。
-* [更多C++常见问题](https://github.com/gonglei007/cpp-bugs-killer/blob/main/mds/C++常见问题.md) - 比如野指针、内存对齐。
+
+### 其他资源
+* [C++常见问题](./mds/C++常见问题.md) - 野指针、内存对齐等
+* [C++找bug训练](./mds/C++找bug训练.md) - 原始训练文档
 
 ## 快捷测试
 > 可以把main.cpp文件中的代码复制到OnlineGDB中运行测试。
